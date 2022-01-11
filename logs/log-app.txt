@@ -1,0 +1,249 @@
+01-11 11:12:58.110: W/Looper(11185): Slow Looper main: doFrame is 471ms late because of 5 msg, msg 1 took 454ms (seq=17 late=181ms h=android.view.Choreographer$FrameHandler c=android.view.Choreographer$FrameDisplayEventReceiver)
+01-11 11:12:58.179: D/CordovaWebViewImpl(11185): onPageDidNavigate(file:///android_asset/www/index.html)
+01-11 11:12:58.179: D/PluginManager(11185): postMessage: onPageStarted
+01-11 11:12:58.296: D/JsMessageQueue(11185): Set native->JS mode to EvalBridgeMode
+01-11 11:12:58.532: D/CordovaWebViewImpl(11185): onPageFinished(file:///android_asset/www/index.html)
+01-11 11:12:58.532: D/PluginManager(11185): postMessage: onPageFinished
+01-11 11:12:58.606: D/PluginManager(11185): getPlugin - put: CoreAndroid
+01-11 11:12:58.616: D/PluginManager(11185): getPlugin - put: Device
+01-11 11:12:58.626: D/PluginManager(11185): getPlugin - put: BackgroundMode
+01-11 11:12:58.647: I/chromium(11185): [INFO:CONSOLE(100)] "Received Event: deviceready", source: file:///android_asset/www/js/index.js (100)
+01-11 11:12:58.648: D/PluginManager(11185): postMessage: spinner
+01-11 11:13:03.862: I/va.hellocordov(11185): ProcessProfilingInfo new_methods=228 is saved saved_to_disk=1 resolve_classes_delay=8000
+01-11 11:13:03.862: I/va.hellocordov(11185): [ 01-11 11:13:03.892   793: 1832 D/         ]
+01-11 11:13:03.862: I/va.hellocordov(11185): readbrightness,out1:470
+01-11 11:13:03.862: I/va.hellocordov(11185): I��@B.
+01-11 11:13:03.862: I/va.hellocordov(11185): [ 01-11 11:13:03.893   793: 1832 D/         ]
+01-11 11:13:03.862: I/va.hellocordov(11185): readbrightness,out2:470.
+01-11 11:13:06.813: D/PluginManager(11185): getPlugin - put: Camera
+01-11 11:13:07.183: W/BpBinder(11185): Slow Binder: BpBinder transact took 362ms, interface=android.app.IActivityManager, code=20 oneway=false
+01-11 11:13:07.251: I/Timeline(11185): Timeline: Activity_launch_request time:313265680
+01-11 11:13:07.275: W/PluginManager(11185): THREAD WARNING: exec() call to Camera.takePicture blocked the main thread for 462ms. Plugin should use CordovaInterface.getThreadPool().
+01-11 11:13:07.276: D/CordovaActivity(11185): Paused the activity.
+01-11 11:13:08.939: D/CordovaActivity(11185): Stopped the activity.
+01-11 11:13:15.460: I/Perf(12063): Connecting to perf service.
+01-11 11:13:15.511: I/FeatureParser(12063): can't find pine.xml in assets/device_features/,it may be in /system/etc/device_features
+01-11 11:13:15.596: W/ActivityThread(12063): handleWindowVisibility: no activity for token android.os.BinderProxy@5e361f7
+01-11 11:13:15.639: E/Perf(12063): Fail to get file list io.cordova.hellocordova
+01-11 11:13:15.640: E/Perf(12063): getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+01-11 11:13:15.640: E/Perf(12063): Fail to get file list io.cordova.hellocordova
+01-11 11:13:15.640: E/Perf(12063): getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+01-11 11:13:15.688: I/CordovaLog(12063): Changing log level to DEBUG(3)
+01-11 11:13:15.688: I/CordovaActivity(12063): Apache Cordova native platform version 9.1.0 is starting
+01-11 11:13:15.688: D/CordovaActivity(12063): CordovaActivity.onCreate()
+01-11 11:13:15.700: D/ForceDarkHelper(12063): updateByCheckExcludeList: pkg: io.cordova.hellocordova activity: io.cordova.hellocordova.MainActivity@7d856c9
+01-11 11:13:15.773: I/WebViewFactory(12063): Loading com.google.android.webview version 97.0.4692.70 (code 469207030)
+01-11 11:13:15.957: W/va.hellocordov(12063): Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (greylist, reflection, allowed)
+01-11 11:13:15.957: W/va.hellocordov(12063): Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (greylist, reflection, allowed)
+01-11 11:13:15.957: W/va.hellocordov(12063): Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (greylist, reflection, allowed)
+01-11 11:13:15.957: W/va.hellocordov(12063): Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (greylist, reflection, allowed)
+01-11 11:13:15.958: W/va.hellocordov(12063): Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (greylist, reflection, allowed)
+01-11 11:13:15.964: I/cr_WVCFactoryProvider(12063): Loaded version=97.0.4692.70 minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+01-11 11:13:16.105: I/cr_LibraryLoader(12063): Successfully loaded native library
+01-11 11:13:16.113: I/cr_CachingUmaRecorder(12063): Flushed 9 samples from 9 histograms.
+01-11 11:13:16.412: W/chromium(12063): [WARNING:dns_config_service_android.cc(113)] Failed to read DnsConfig.
+01-11 11:13:16.449: E/chromium(12063): [ERROR:simple_index_file_posix.cc(36)] opendir /data/user/0/io.cordova.hellocordova/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+01-11 11:13:16.449: E/chromium(12063): [ERROR:simple_index_file.cc(575)] Could not reconstruct index from disk
+01-11 11:13:16.529: D/EgretLoader(12063): EgretLoader(Context context)
+01-11 11:13:16.534: D/EgretLoader(12063): The context is not activity
+01-11 11:13:16.587: D/ForceDarkHelper(12063): updateByCheckExcludeList: pkg: io.cordova.hellocordova activity: io.cordova.hellocordova.MainActivity@7d856c9
+01-11 11:13:16.590: D/ForceDarkHelper(12063): updateByCheckExcludeList: pkg: io.cordova.hellocordova activity: io.cordova.hellocordova.MainActivity@7d856c9
+01-11 11:13:16.614: D/SystemWebViewEngine(12063): CordovaWebView is running on device made by: Xiaomi
+01-11 11:13:16.623: D/PluginManager(12063): init()
+01-11 11:13:16.630: D/PluginManager(12063): getPlugin - put: Whitelist
+01-11 11:13:16.630: D/PluginManager(12063): startupPlugins: put - AdvancedImagePicker
+01-11 11:13:16.630: D/PluginManager(12063): startupPlugins: put - Camera
+01-11 11:13:16.630: D/PluginManager(12063): startupPlugins: put - Device
+01-11 11:13:16.630: D/PluginManager(12063): startupPlugins: put - BackgroundMode
+01-11 11:13:16.630: D/PluginManager(12063): startupPlugins: put - BackgroundModeExt
+01-11 11:13:16.630: D/PluginManager(12063): startupPlugins: put - CoreAndroid
+01-11 11:13:16.634: D/PluginManager(12063): getPlugin - put: CoreAndroid
+01-11 11:13:16.635: D/CordovaWebViewImpl(12063): >>> loadUrl(file:///android_asset/www/index.html)
+01-11 11:13:16.647: W/va.hellocordov(12063): Accessing hidden method Landroid/media/AudioManager;->getOutputLatency(I)I (greylist, reflection, allowed)
+01-11 11:13:16.656: I/AdrenoGLES(12063): QUALCOMM build                   : c692a3f, Ie3bb699d95
+01-11 11:13:16.656: I/AdrenoGLES(12063): Build Date                       : 09/29/20
+01-11 11:13:16.656: I/AdrenoGLES(12063): OpenGL ES Shader Compiler Version: EV031.27.05.02
+01-11 11:13:16.656: I/AdrenoGLES(12063): Local Branch                     : 
+01-11 11:13:16.656: I/AdrenoGLES(12063): Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.8.6.2.R1.10.00.00.537.053
+01-11 11:13:16.656: I/AdrenoGLES(12063): Remote Branch                    : NONE
+01-11 11:13:16.656: I/AdrenoGLES(12063): Reconstruct Branch               : NOTHING
+01-11 11:13:16.656: I/AdrenoGLES(12063): Build Config                     : S L 8.0.10 AArch32
+01-11 11:13:16.671: W/cr_media(12063): Requires BLUETOOTH permission
+01-11 11:13:16.690: W/Activity(12063): Slow Operation: Activity io.cordova.hellocordova/.MainActivity onCreate took 1006ms
+01-11 11:13:16.692: I/AdrenoGLES(12063): PFP: 0x005ff112, ME: 0x005ff066
+01-11 11:13:16.701: D/CordovaActivity(12063): Started the activity.
+01-11 11:13:16.705: D/CordovaActivity(12063): Incoming Result. Request code = 34
+01-11 11:13:16.712: D/PluginManager(12063): getPlugin - put: Camera
+01-11 11:13:16.713: D/CordovaInterfaceImpl(12063): Sending activity result to plugin
+01-11 11:13:18.061: W/BpBinder(12063): Slow Binder: BpBinder transact took 383ms, interface=android.app.IActivityManager, code=20 oneway=false
+01-11 11:13:18.097: W/Activity(12063): Slow Operation: Activity io.cordova.hellocordova/.MainActivity onActivityResult took 1393ms
+01-11 11:13:18.099: D/CordovaActivity(12063): Resumed the activity.
+01-11 11:13:18.151: W/Looper(12063): Slow Looper main: Long Msg: seq=5 plan=11:13:15.606  late=1ms wall=2541ms running=0ms h=android.app.ActivityThread$H w=159
+01-11 11:13:18.229: W/Looper(12063): Slow Looper main: Activity io.cordova.hellocordova/.MainActivity is 2621ms late (wall=1ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 1 msg, msg 1 took 2541ms (seq=5 late=1ms h=android.app.ActivityThread$H w=159)
+01-11 11:13:18.235: I/Choreographer(12063): Skipped 94 frames!  The application may be doing too much work on its main thread.
+01-11 11:13:18.240: W/ContentCatcher(12063): Failed to notify a WebView
+01-11 11:13:18.273: W/Looper(12063): Slow Looper PlatformServiceBridgeHandlerThread: Long Msg: seq=1 plan=11:13:16.444  late=0ms wall=1826ms running=0ms h=android.os.Handler c=H70
+01-11 11:13:18.320: W/Gralloc3(12063): mapper 3.x is not supported
+01-11 11:13:18.427: I/OpenGLRenderer(12063): Davey! duration=1763ms; Flags=1, IntendedVsync=313275092523834, Vsync=313276659190438, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=313276666339192, AnimationStart=313276666473358, PerformTraversalsStart=313276667716796, DrawStart=313276736148202, SyncQueued=313276741800702, SyncStart=313276742205962, IssueDrawCommandsStart=313276742363098, SwapBuffers=313276854254035, FrameCompleted=313276856165858, DequeueBufferDuration=94000, QueueBufferDuration=950000, 
+01-11 11:13:18.428: W/Looper(12063): Slow Looper main: doFrame is 1572ms late because of 12 msg, msg 1 took 2541ms (seq=5 late=1ms h=android.app.ActivityThread$H w=159)
+01-11 11:13:18.483: D/CordovaWebViewImpl(12063): onPageDidNavigate(file:///android_asset/www/index.html)
+01-11 11:13:18.483: D/PluginManager(12063): postMessage: onPageStarted
+01-11 11:13:18.571: D/JsMessageQueue(12063): Set native->JS mode to EvalBridgeMode
+01-11 11:13:18.614: D/CordovaWebViewImpl(12063): onPageFinished(file:///android_asset/www/index.html)
+01-11 11:13:18.614: D/PluginManager(12063): postMessage: onPageFinished
+01-11 11:13:18.677: D/PluginManager(12063): postMessage: spinner
+01-11 11:13:18.695: D/PluginManager(12063): getPlugin - put: Device
+01-11 11:13:18.709: D/PluginManager(12063): getPlugin - put: BackgroundMode
+01-11 11:13:18.713: I/chromium(12063): [INFO:CONSOLE(100)] "Received Event: deviceready", source: file:///android_asset/www/js/index.js (100)
+01-11 11:13:24.763: I/Timeline(12063): Timeline: Activity_launch_request time:313283193
+01-11 11:13:24.792: W/PluginManager(12063): THREAD WARNING: exec() call to Camera.takePicture blocked the main thread for 47ms. Plugin should use CordovaInterface.getThreadPool().
+01-11 11:13:24.794: D/CordovaActivity(12063): Paused the activity.
+01-11 11:13:25.869: D/CordovaActivity(12063): Stopped the activity.
+01-11 11:13:29.420: I/Perf(12461): Connecting to perf service.
+01-11 11:13:29.455: I/FeatureParser(12461): can't find pine.xml in assets/device_features/,it may be in /system/etc/device_features
+01-11 11:13:29.522: W/ActivityThread(12461): handleWindowVisibility: no activity for token android.os.BinderProxy@5e361f7
+01-11 11:13:29.540: E/Perf(12461): Fail to get file list io.cordova.hellocordova
+01-11 11:13:29.545: E/Perf(12461): getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+01-11 11:13:29.546: E/Perf(12461): Fail to get file list io.cordova.hellocordova
+01-11 11:13:29.546: E/Perf(12461): getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+01-11 11:13:29.589: I/CordovaLog(12461): Changing log level to DEBUG(3)
+01-11 11:13:29.589: I/CordovaActivity(12461): Apache Cordova native platform version 9.1.0 is starting
+01-11 11:13:29.589: D/CordovaActivity(12461): CordovaActivity.onCreate()
+01-11 11:13:29.601: D/ForceDarkHelper(12461): updateByCheckExcludeList: pkg: io.cordova.hellocordova activity: io.cordova.hellocordova.MainActivity@7d856c9
+01-11 11:13:29.640: I/WebViewFactory(12461): Loading com.google.android.webview version 97.0.4692.70 (code 469207030)
+01-11 11:13:29.706: W/va.hellocordov(12461): Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (greylist, reflection, allowed)
+01-11 11:13:29.706: W/va.hellocordov(12461): Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (greylist, reflection, allowed)
+01-11 11:13:29.706: W/va.hellocordov(12461): Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (greylist, reflection, allowed)
+01-11 11:13:29.706: W/va.hellocordov(12461): Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (greylist, reflection, allowed)
+01-11 11:13:29.706: W/va.hellocordov(12461): Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (greylist, reflection, allowed)
+01-11 11:13:29.711: I/cr_WVCFactoryProvider(12461): Loaded version=97.0.4692.70 minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+01-11 11:13:29.763: I/cr_LibraryLoader(12461): Successfully loaded native library
+01-11 11:13:29.764: I/cr_CachingUmaRecorder(12461): Flushed 9 samples from 9 histograms.
+01-11 11:13:29.847: W/chromium(12461): [WARNING:dns_config_service_android.cc(113)] Failed to read DnsConfig.
+01-11 11:13:29.930: D/EgretLoader(12461): EgretLoader(Context context)
+01-11 11:13:29.935: D/EgretLoader(12461): The context is not activity
+01-11 11:13:29.957: D/ForceDarkHelper(12461): updateByCheckExcludeList: pkg: io.cordova.hellocordova activity: io.cordova.hellocordova.MainActivity@7d856c9
+01-11 11:13:29.961: D/ForceDarkHelper(12461): updateByCheckExcludeList: pkg: io.cordova.hellocordova activity: io.cordova.hellocordova.MainActivity@7d856c9
+01-11 11:13:29.982: D/SystemWebViewEngine(12461): CordovaWebView is running on device made by: Xiaomi
+01-11 11:13:29.990: D/PluginManager(12461): init()
+01-11 11:13:29.997: D/PluginManager(12461): getPlugin - put: Whitelist
+01-11 11:13:29.997: D/PluginManager(12461): startupPlugins: put - AdvancedImagePicker
+01-11 11:13:29.997: D/PluginManager(12461): startupPlugins: put - Camera
+01-11 11:13:29.997: D/PluginManager(12461): startupPlugins: put - Device
+01-11 11:13:29.997: D/PluginManager(12461): startupPlugins: put - BackgroundMode
+01-11 11:13:29.997: D/PluginManager(12461): startupPlugins: put - BackgroundModeExt
+01-11 11:13:29.997: D/PluginManager(12461): startupPlugins: put - CoreAndroid
+01-11 11:13:30.001: D/PluginManager(12461): getPlugin - put: CoreAndroid
+01-11 11:13:30.002: D/CordovaWebViewImpl(12461): >>> loadUrl(file:///android_asset/www/index.html)
+01-11 11:13:30.015: W/va.hellocordov(12461): Accessing hidden method Landroid/media/AudioManager;->getOutputLatency(I)I (greylist, reflection, allowed)
+01-11 11:13:30.020: I/AdrenoGLES(12461): QUALCOMM build                   : c692a3f, Ie3bb699d95
+01-11 11:13:30.020: I/AdrenoGLES(12461): Build Date                       : 09/29/20
+01-11 11:13:30.020: I/AdrenoGLES(12461): OpenGL ES Shader Compiler Version: EV031.27.05.02
+01-11 11:13:30.020: I/AdrenoGLES(12461): Local Branch                     : 
+01-11 11:13:30.020: I/AdrenoGLES(12461): Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.8.6.2.R1.10.00.00.537.053
+01-11 11:13:30.020: I/AdrenoGLES(12461): Remote Branch                    : NONE
+01-11 11:13:30.020: I/AdrenoGLES(12461): Reconstruct Branch               : NOTHING
+01-11 11:13:30.020: I/AdrenoGLES(12461): Build Config                     : S L 8.0.10 AArch32
+01-11 11:13:30.027: I/AdrenoGLES(12461): PFP: 0x005ff112, ME: 0x005ff066
+01-11 11:13:30.036: W/cr_media(12461): Requires BLUETOOTH permission
+01-11 11:13:30.040: D/CordovaActivity(12461): Started the activity.
+01-11 11:13:30.044: D/CordovaActivity(12461): Incoming Result. Request code = 34
+01-11 11:13:30.052: D/PluginManager(12461): getPlugin - put: Camera
+01-11 11:13:30.054: D/CordovaInterfaceImpl(12461): Sending activity result to plugin
+01-11 11:13:31.069: W/Activity(12461): Slow Operation: Activity io.cordova.hellocordova/.MainActivity onActivityResult took 1025ms
+01-11 11:13:31.072: D/CordovaActivity(12461): Resumed the activity.
+01-11 11:13:31.094: W/Looper(12461): Slow Looper main: Long Msg: seq=5 plan=11:13:29.525  late=0ms wall=1567ms running=0ms h=android.app.ActivityThread$H w=159
+01-11 11:13:31.141: W/Looper(12461): Slow Looper main: Activity io.cordova.hellocordova/.MainActivity is 1614ms late (wall=0ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 1 msg, msg 1 took 1567ms (seq=5 h=android.app.ActivityThread$H w=159)
+01-11 11:13:31.145: I/Choreographer(12461): Skipped 66 frames!  The application may be doing too much work on its main thread.
+01-11 11:13:31.149: W/ContentCatcher(12461): Failed to notify a WebView
+01-11 11:13:31.176: W/Looper(12461): Slow Looper PlatformServiceBridgeHandlerThread: Long Msg: seq=1 plan=11:13:29.868  late=1ms wall=1306ms running=0ms h=android.os.Handler c=H70
+01-11 11:13:31.236: W/Gralloc3(12461): mapper 3.x is not supported
+01-11 11:13:31.339: I/OpenGLRenderer(12461): Davey! duration=1309ms; Flags=1, IntendedVsync=313288459105379, Vsync=313289559105335, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=313289576090905, AnimationStart=313289576186010, PerformTraversalsStart=313289576866739, DrawStart=313289649478249, SyncQueued=313289656400853, SyncStart=313289656776739, IssueDrawCommandsStart=313289656982468, SwapBuffers=313289766330958, FrameCompleted=313289768655645, DequeueBufferDuration=5834000, QueueBufferDuration=1095000, 
+01-11 11:13:31.340: W/Looper(12461): Slow Looper main: doFrame is 1115ms late because of 13 msg, msg 1 took 1567ms (seq=5 h=android.app.ActivityThread$H w=159)
+01-11 11:13:31.390: D/CordovaWebViewImpl(12461): onPageDidNavigate(file:///android_asset/www/index.html)
+01-11 11:13:31.390: D/PluginManager(12461): postMessage: onPageStarted
+01-11 11:13:31.442: D/JsMessageQueue(12461): Set native->JS mode to EvalBridgeMode
+01-11 11:13:31.489: D/CordovaWebViewImpl(12461): onPageFinished(file:///android_asset/www/index.html)
+01-11 11:13:31.489: D/PluginManager(12461): postMessage: onPageFinished
+01-11 11:13:31.517: D/PluginManager(12461): postMessage: spinner
+01-11 11:13:31.522: D/PluginManager(12461): getPlugin - put: Device
+01-11 11:13:31.531: D/PluginManager(12461): getPlugin - put: BackgroundMode
+01-11 11:13:31.540: I/chromium(12461): [INFO:CONSOLE(100)] "Received Event: deviceready", source: file:///android_asset/www/js/index.js (100)
+01-11 11:13:35.935: I/Timeline(12461): Timeline: Activity_launch_request time:313294365
+01-11 11:13:35.951: W/PluginManager(12461): THREAD WARNING: exec() call to Camera.takePicture blocked the main thread for 42ms. Plugin should use CordovaInterface.getThreadPool().
+01-11 11:13:35.952: D/CordovaActivity(12461): Paused the activity.
+01-11 11:13:36.584: W/RenderInspector(12461): DequeueBuffer time out on io.cordova.hellocordova/io.cordova.hellocordova.MainActivity, count=1, avg=21 ms, max=21 ms.
+01-11 11:13:36.861: D/CordovaActivity(12461): Stopped the activity.
+01-11 11:13:41.843: I/Perf(12863): Connecting to perf service.
+01-11 11:13:41.900: I/FeatureParser(12863): can't find pine.xml in assets/device_features/,it may be in /system/etc/device_features
+01-11 11:13:41.960: W/ActivityThread(12863): handleWindowVisibility: no activity for token android.os.BinderProxy@5e361f7
+01-11 11:13:42.005: E/Perf(12863): Fail to get file list io.cordova.hellocordova
+01-11 11:13:42.005: E/Perf(12863): getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+01-11 11:13:42.005: E/Perf(12863): Fail to get file list io.cordova.hellocordova
+01-11 11:13:42.005: E/Perf(12863): getFolderSize() : Exception_1 = java.lang.NullPointerException: Attempt to get length of null array
+01-11 11:13:42.037: I/CordovaLog(12863): Changing log level to DEBUG(3)
+01-11 11:13:42.037: I/CordovaActivity(12863): Apache Cordova native platform version 9.1.0 is starting
+01-11 11:13:42.037: D/CordovaActivity(12863): CordovaActivity.onCreate()
+01-11 11:13:42.054: D/ForceDarkHelper(12863): updateByCheckExcludeList: pkg: io.cordova.hellocordova activity: io.cordova.hellocordova.MainActivity@7d856c9
+01-11 11:13:42.097: I/WebViewFactory(12863): Loading com.google.android.webview version 97.0.4692.70 (code 469207030)
+01-11 11:13:42.182: W/va.hellocordov(12863): Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (greylist, reflection, allowed)
+01-11 11:13:42.183: W/va.hellocordov(12863): Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (greylist, reflection, allowed)
+01-11 11:13:42.183: W/va.hellocordov(12863): Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (greylist, reflection, allowed)
+01-11 11:13:42.183: W/va.hellocordov(12863): Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (greylist, reflection, allowed)
+01-11 11:13:42.183: W/va.hellocordov(12863): Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (greylist, reflection, allowed)
+01-11 11:13:42.190: I/cr_WVCFactoryProvider(12863): Loaded version=97.0.4692.70 minSdkVersion=29 isBundle=true multiprocess=true packageId=2
+01-11 11:13:42.264: I/cr_LibraryLoader(12863): Successfully loaded native library
+01-11 11:13:42.266: I/cr_CachingUmaRecorder(12863): Flushed 9 samples from 9 histograms.
+01-11 11:13:42.367: W/chromium(12863): [WARNING:dns_config_service_android.cc(113)] Failed to read DnsConfig.
+01-11 11:13:42.466: D/EgretLoader(12863): EgretLoader(Context context)
+01-11 11:13:42.472: D/EgretLoader(12863): The context is not activity
+01-11 11:13:42.499: D/ForceDarkHelper(12863): updateByCheckExcludeList: pkg: io.cordova.hellocordova activity: io.cordova.hellocordova.MainActivity@7d856c9
+01-11 11:13:42.503: D/ForceDarkHelper(12863): updateByCheckExcludeList: pkg: io.cordova.hellocordova activity: io.cordova.hellocordova.MainActivity@7d856c9
+01-11 11:13:42.525: D/SystemWebViewEngine(12863): CordovaWebView is running on device made by: Xiaomi
+01-11 11:13:42.532: D/PluginManager(12863): init()
+01-11 11:13:42.540: D/PluginManager(12863): getPlugin - put: Whitelist
+01-11 11:13:42.540: D/PluginManager(12863): startupPlugins: put - AdvancedImagePicker
+01-11 11:13:42.540: D/PluginManager(12863): startupPlugins: put - Camera
+01-11 11:13:42.540: D/PluginManager(12863): startupPlugins: put - Device
+01-11 11:13:42.540: D/PluginManager(12863): startupPlugins: put - BackgroundMode
+01-11 11:13:42.540: D/PluginManager(12863): startupPlugins: put - BackgroundModeExt
+01-11 11:13:42.540: D/PluginManager(12863): startupPlugins: put - CoreAndroid
+01-11 11:13:42.543: D/PluginManager(12863): getPlugin - put: CoreAndroid
+01-11 11:13:42.546: D/CordovaWebViewImpl(12863): >>> loadUrl(file:///android_asset/www/index.html)
+01-11 11:13:42.556: W/va.hellocordov(12863): Accessing hidden method Landroid/media/AudioManager;->getOutputLatency(I)I (greylist, reflection, allowed)
+01-11 11:13:42.566: I/AdrenoGLES(12863): QUALCOMM build                   : c692a3f, Ie3bb699d95
+01-11 11:13:42.566: I/AdrenoGLES(12863): Build Date                       : 09/29/20
+01-11 11:13:42.566: I/AdrenoGLES(12863): OpenGL ES Shader Compiler Version: EV031.27.05.02
+01-11 11:13:42.566: I/AdrenoGLES(12863): Local Branch                     : 
+01-11 11:13:42.566: I/AdrenoGLES(12863): Remote Branch                    : refs/tags/AU_LINUX_ANDROID_LA.UM.8.6.2.R1.10.00.00.537.053
+01-11 11:13:42.566: I/AdrenoGLES(12863): Remote Branch                    : NONE
+01-11 11:13:42.566: I/AdrenoGLES(12863): Reconstruct Branch               : NOTHING
+01-11 11:13:42.566: I/AdrenoGLES(12863): Build Config                     : S L 8.0.10 AArch32
+01-11 11:13:42.573: I/AdrenoGLES(12863): PFP: 0x005ff112, ME: 0x005ff066
+01-11 11:13:42.574: W/cr_media(12863): Requires BLUETOOTH permission
+01-11 11:13:42.579: W/Activity(12863): Slow Operation: Activity io.cordova.hellocordova/.MainActivity onCreate took 546ms
+01-11 11:13:42.588: D/CordovaActivity(12863): Started the activity.
+01-11 11:13:42.592: D/CordovaActivity(12863): Incoming Result. Request code = 34
+01-11 11:13:42.606: D/PluginManager(12863): getPlugin - put: Camera
+01-11 11:13:42.608: D/CordovaInterfaceImpl(12863): Sending activity result to plugin
+01-11 11:13:43.742: W/BpBinder(12863): Slow Binder: BpBinder transact took 223ms, interface=android.app.IActivityManager, code=20 oneway=false
+01-11 11:13:43.787: W/Activity(12863): Slow Operation: Activity io.cordova.hellocordova/.MainActivity onActivityResult took 1194ms
+01-11 11:13:43.792: D/CordovaActivity(12863): Resumed the activity.
+01-11 11:13:43.827: W/Looper(12863): Slow Looper main: Long Msg: seq=5 plan=11:13:41.978  late=1ms wall=1845ms running=0ms h=android.app.ActivityThread$H w=159
+01-11 11:13:43.883: W/Looper(12863): Slow Looper main: Activity io.cordova.hellocordova/.MainActivity is 1902ms late (wall=1ms running=0ms ClientTransaction{ callbacks=[android.app.servertransaction.TopResumedActivityChangeItem] }) because of 1 msg, msg 1 took 1845ms (seq=5 late=1ms h=android.app.ActivityThread$H w=159)
+01-11 11:13:43.886: I/Choreographer(12863): Skipped 78 frames!  The application may be doing too much work on its main thread.
+01-11 11:13:43.889: W/ContentCatcher(12863): Failed to notify a WebView
+01-11 11:13:43.922: W/Looper(12863): Slow Looper PlatformServiceBridgeHandlerThread: Long Msg: seq=1 plan=11:13:42.393  late=2ms wall=1526ms running=0ms h=android.os.Handler c=H70
+01-11 11:13:43.962: W/Gralloc3(12863): mapper 3.x is not supported
+01-11 11:13:44.042: I/OpenGLRenderer(12863): Davey! duration=1463ms; Flags=1, IntendedVsync=313301006885303, Vsync=313302306885251, OldestInputEvent=9223372036854775807, NewestInputEvent=0, HandleInputStart=313302317014494, AnimationStart=313302317104390, PerformTraversalsStart=313302317634286, DrawStart=313302384886005, SyncQueued=313302390177515, SyncStart=313302390827567, IssueDrawCommandsStart=313302391023505, SwapBuffers=313302469184442, FrameCompleted=313302471476734, DequeueBufferDuration=134000, QueueBufferDuration=1305000, 
+01-11 11:13:44.045: W/Looper(12863): Slow Looper main: doFrame is 1309ms late because of 13 msg, msg 1 took 1845ms (seq=5 late=1ms h=android.app.ActivityThread$H w=159)
+01-11 11:13:44.092: D/CordovaWebViewImpl(12863): onPageDidNavigate(file:///android_asset/www/index.html)
+01-11 11:13:44.092: D/PluginManager(12863): postMessage: onPageStarted
+01-11 11:13:44.146: D/JsMessageQueue(12863): Set native->JS mode to EvalBridgeMode
+01-11 11:13:44.182: D/CordovaWebViewImpl(12863): onPageFinished(file:///android_asset/www/index.html)
+01-11 11:13:44.182: D/PluginManager(12863): postMessage: onPageFinished
+01-11 11:13:44.246: D/PluginManager(12863): postMessage: spinner
+01-11 11:13:44.248: D/PluginManager(12863): getPlugin - put: Device
+01-11 11:13:44.259: D/PluginManager(12863): getPlugin - put: BackgroundMode
+01-11 11:13:44.270: I/chromium(12863): [INFO:CONSOLE(100)] "Received Event: deviceready", source: file:///android_asset/www/js/index.js (100)
+01-11 11:13:44.338: W/RenderInspector(12863): DequeueBuffer time out on io.cordova.hellocordova/io.cordova.hellocordova.MainActivity, count=1, avg=19 ms, max=19 ms.

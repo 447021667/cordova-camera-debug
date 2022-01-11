@@ -1,0 +1,9 @@
+01-11 11:12:58.647: I/chromium(11185): [INFO:CONSOLE(100)] "Received Event: deviceready", source: file:///android_asset/www/js/index.js (100)
+01-11 11:13:16.412: W/chromium(12063): [WARNING:dns_config_service_android.cc(113)] Failed to read DnsConfig.
+01-11 11:13:16.449: E/chromium(12063): [ERROR:simple_index_file_posix.cc(36)] opendir /data/user/0/io.cordova.hellocordova/cache/WebView/Default/HTTP Cache/Code Cache/js: No such file or directory (2)
+01-11 11:13:16.449: E/chromium(12063): [ERROR:simple_index_file.cc(575)] Could not reconstruct index from disk
+01-11 11:13:18.713: I/chromium(12063): [INFO:CONSOLE(100)] "Received Event: deviceready", source: file:///android_asset/www/js/index.js (100)
+01-11 11:13:29.847: W/chromium(12461): [WARNING:dns_config_service_android.cc(113)] Failed to read DnsConfig.
+01-11 11:13:31.540: I/chromium(12461): [INFO:CONSOLE(100)] "Received Event: deviceready", source: file:///android_asset/www/js/index.js (100)
+01-11 11:13:42.367: W/chromium(12863): [WARNING:dns_config_service_android.cc(113)] Failed to read DnsConfig.
+01-11 11:13:44.270: I/chromium(12863): [INFO:CONSOLE(100)] "Received Event: deviceready", source: file:///android_asset/www/js/index.js (100)
